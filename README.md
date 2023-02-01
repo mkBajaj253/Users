@@ -14,3 +14,8 @@ Use https://reqres.in/api/users url to get list of users ,  display first name, 
 
 
 
+# Steps 
+
+1. Fork this project into your git. 
+2. Once done with project rasie pull request. 
+3. Use latest Xcode version. 
