@@ -13,7 +13,7 @@ struct ErrorView: View {
 
     var body: some View {
         print(error)
-        return Text("❌ **Error**").font(.system(size: 60))
+        return Text("Image Not Found!").font(.system(size: 30)).foregroundColor(.red)
     }
 }
 

@@ -25,7 +25,7 @@ struct ImageView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: imageWidth)
-                        .padding(.trailing, 10)
+                        .padding(.trailing, 3)
                 }
             case .failure(let error):
                 ErrorView(error: error)
@@ -39,9 +39,8 @@ struct ImageView: View {
                 Image(systemName: "questionmark")
             }
         }
-        .frame(maxWidth: .infinity)
-        .frame(height: cellHeight)//
-        .padding()
+        .frame(maxWidth: .none)
+        .frame(height: cellHeight)
         .listRowSeparator(.hidden)
     }
 }
